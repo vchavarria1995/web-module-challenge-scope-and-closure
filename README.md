@@ -42,7 +42,7 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). A closure is when a function references a variable outside of a function's scope from an inner function. Like a function within a function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +63,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? the closure in this function is the return function(), you can tell because it is the inner function and can reference the 2 variables outside of it
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? The string text "Dan rolled a" stays the same, the number is always random, you could change dansRoll to zoesRoll to roll for zoe instead.
+c. What is the lexical scope of `newRoll`? function personalDice(name)
 
 
 ### Task 3 - Stretch Goals
